@@ -31,7 +31,7 @@ public class HelloControllerTest {
  
     @Test
     public void hello_withName_mustEqualsParameter() throws Exception {
-  String name = "birdtt7700000";
+  String name = "Danai kongseeya";
  
         mockMvc.perform(MockMvcRequestBuilders.get("/hello?name=" + name).accept(MediaType.TEXT_HTML))
                 .andExpect(status().isOk())
